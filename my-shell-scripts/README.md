@@ -1,1 +1,1 @@
-Sscripts em Shell [1-5]
+Scripts em Shell [1-5]
