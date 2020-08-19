@@ -1,3 +1,3 @@
 #!/bin/bash
-#Shell Script que imprime frase na tela
+#Eu sou Tryber e…
 echo "Shell Script é demais!"
