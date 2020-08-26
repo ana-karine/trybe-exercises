@@ -28,3 +28,11 @@
     padding: .3rem;
     font-size: 1.2rem;
 }
+
+.foto { 
+    border: 50%;
+    float: top; 
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px 10px 0px 10px; 
+}
