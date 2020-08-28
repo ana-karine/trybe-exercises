@@ -263,7 +263,7 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 
 ##### Bloco 38 - Algoritmos de ordenação e busca
  
-- [] 38-1: _Algoritmos de ordenação e busca_
+- [ ] 38-1: _Algoritmos de ordenação e busca_
 
 
 # [...]
