@@ -1,0 +1,9 @@
+Bloco - Dia: 4 - 1 
+Título: JavaScript - Primeiros passos
+
+Trabalho feito para o curso de Software Developer da Trybe. 
+
+Objetivos:
+- escrever código em JavaScript utilizando variáveis, constantes e tipos primitivos;
+- utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição;
+- criar códigos usando estruturas condicionais.
