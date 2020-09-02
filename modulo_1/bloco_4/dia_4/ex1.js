@@ -5,8 +5,8 @@ let info = {
   };
 
   
-// Duas formas de resolver o exercício:
-
+// imprime no console: "Bem-vinda, Margarida"
 console.log('Bem-vinda, '+ info.personagem);
 
+// outra forma de resolver o exercício
 console.log('Bem-vinda, '+ info['personagem']);
