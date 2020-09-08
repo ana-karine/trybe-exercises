@@ -69,7 +69,11 @@
       elementoDivMain.className = 'main-content';
       document.body.appendChild(elementoDivMain);
       // 
-      // 3. Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
+      // 3. Adicione a tag div com a classe 'center-content' como filho da tag div criada no passo 2;
+      const elementoDivCenter = document.createElement('div');
+      elementoDivCenter.className = 'center-content';
+      elementoDivMain.appendChild(elementoDivCenter);
+      // 
       // 4. Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
       // 5. Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
       // 6. Adicione a tag div com a classe right-content como filho da tag div criada no passo 2;
