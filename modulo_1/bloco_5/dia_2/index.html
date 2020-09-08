@@ -64,7 +64,11 @@
       elementoH1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
       document.body.appendChild(elementoH1);
       //
-      // 2. Adicione a tag div com a classe main-content como filho da tag body;
+      // 2. Adicione a tag div com a classe 'main-content' como filho da tag body;
+      const elementoDivMain = document.createElement('div');
+      elementoDivMain.className = 'main-content';
+      document.body.appendChild(elementoDivMain);
+      // 
       // 3. Adicione a tag div com a classe center-content como filho da tag div criada no passo 2;
       // 4. Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
       // 5. Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
