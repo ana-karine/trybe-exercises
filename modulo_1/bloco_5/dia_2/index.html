@@ -106,7 +106,13 @@
         }
       //  
       // 9. Adicione 3 tags h3, todas sendo filhas do div criado no passo 2.
-
+      for (let i = 1; i <= 3; i += 1) {
+        const elementoH3 = document.createElement('h3');
+        elementoH3.innerHTML = 'Trybe ' + i;
+        elementoDivMain.appendChild(elementoH3);
+      }
+      //
+      //
       // Parte 2
       //
       // 1. Adicione a classe title na tag h1 criada;
