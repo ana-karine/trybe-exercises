@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--Fonte: https://codepen.io/prosetech/pen/oRxMmZ-->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Creepster|Text+Me+One" rel="stylesheet">
+    <title>A Creepy Story</title>
+  </head>
+  <body>
+    <h1>O porão</h1>
+    <p id="story">Eu sabia que não deveria ir lá, naquele lugar úmido e frio. Mas eu queria encontrar meu amigo, e ele estava escondido no porão.</p>
+    
+    <button>Entre no porão</button>
+    <div class="textEntry">Informe seu nome: <input type="text" id="name" autocomplete="off"></div>
+    <button>Atenção! Não aperte esse botão!</button>
+    <button>Agora, conte o que aconteceu</button>
+    <audio id="audio" src="http://reboot-me.com/ouch.mp3" type="audio/mpeg"></audio>
+
+<style>
+body {
+  margin: 20px;
+  font-family: 'Text Me One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+body.dark {
+  color: white;
+  background: black;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  font-weight: normal;
+  font-size: 60px;
+  margin: 5px;
+}
+
+button {  
+  display: block;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.textEntry {
+  margin-top: 12px;
+  margin-bottom: 15px;
+}  
+</style>
+
+<script>
+let personName = "";
+const btn = document.getElementsByTagName('button');
+
+btn[0].addEventListener('click', goDark);
+btn[1].addEventListener('click', complainMessage);
+btn[2].addEventListener('click', finishTheStory);
+
+const nome = document.querySelector('#name');
+nome.addEventListener('input', typeAndScream);
+
+function complainMessage() {
+  alert("Eu disse para não fazer isso " + personName + "!");
+}
+
+function typeAndScream() {
+  document.getElementById("audio").play();
+  personName = document.getElementById("name").value;
+}
+
+function goDark() {
+  let body = document.getElementsByTagName("body")[0];
+  if (body.className == "") {
+    body.className = "dark";
+  }
+  else {
+    body.className = "";
+  }
+}
+
+function finishTheStory() {
+  document.getElementById("story").innerHTML = "Acordei.";
+}
+</script>
+
+  </body>
+</html>
