@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Calculator</title>
+<!--Fonte: https://www.teaching-materials.org/jsweb/exercises/events-->
+</head>
+<body>
+
+  <label>Número quadrado:
+    <input type="number" id="square-input" size="2">
+  </label>
+  <button id="square-button">Calculate</button>
+  <br><br>
+  
+  <label>Divisão por dois:
+    <input type="number" id="half-input" size="2">
+  </label>
+  <button id="half-button">Calculate</button>
+  <br><br>
+  
+  <label>Fração:
+    <input type="number" id="percent1-input" size="2">
+  </label>
+  <label>de:
+    <input type="number" id="percent2-input" size="2">
+  </label>
+  <button id="percent-button">Calculate</button>
+  <br><br>
+  
+  <label>Área do círculo com raio:
+    <input type="number" id="area-input" size="2">
+  </label>
+  <button id="area-button">Calculate</button> 
+  <br><br>
+  <div id="solution"></div>
+
+<script>
+function squareNumber(num) {
+  let squaredNumber = num * num;
+  return('O resultado do quadrado do número ' + num + ' é ' + squaredNumber + '.');
+}
+
+function halfOf(num) {
+  let half = num / 2;
+  return('A metade de ' + num + ' é ' +  half + '.');
+}
+
+function percentOf(num1, num2) {
+  let percent = (num1/num2) * 100;
+  return(num1 + ' é ' + percent + '% de ' + num2 + '.');
+}
+
+function areaOfCircle(radius) {
+  let area = Math.PI * (radius ** 2);
+  return('A área do círculo com raio ' + radius + ' é ' + area + '.');
+}
+
+
+let squareButton = document.getElementById("square-button");
+squareButton.addEventListener("click", function() {
+  let num = document.getElementById("square-input").value;
+  document.getElementById("solution").innerHTML = squareNumber(num);
+});
+
+let halfButton = document.getElementById("half-button");
+halfButton.addEventListener("click", function() {
+  let num = document.getElementById("half-input").value;
+  document.getElementById("solution").innerHTML = halfOf(num);
+});
+
+let percentButton = document.getElementById("percent-button");
+percentButton.addEventListener("click", function() {
+  let num1 = document.getElementById("percent1-input").value;
+  let num2 = document.getElementById("percent2-input").value;
+  document.getElementById("solution").innerHTML = percentOf(num1, num2);
+});
+
+let areaButton = document.getElementById("area-button");
+areaButton.addEventListener("click", function() {
+  let num = document.getElementById("area-input").value;
+  document.getElementById("solution").innerHTML = areaOfCircle(num);
+});
+</script>
+
+</body>
+</html>

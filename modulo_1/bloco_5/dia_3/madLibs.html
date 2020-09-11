@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Mad Libs</title>
+  <!--Fonte: https://www.teaching-materials.org/jsweb/exercises/events-->
+ </head>
+ <body>
+ 
+ <h1>Mad Libs</h1>
+ <p>Escreva uma palavra em cada campo:</p>
+ <ul>
+  <li>Cor: <input type="text" id="color">
+  <li>Comida: <input type="text" id="food">
+  <li>Nome: <input type="text" id="name">
+ </ul>
+ 
+ <button id="lib-button">Lib it!</button>
+  
+ <div id="story"></div>
+  
+<script>
+  function libIt() {
+    let storyDiv = document.getElementById("story");
+    let name = document.getElementById("name").value;
+    let food = document.getElementById("food").value;
+    let color = document.getElementById("color").value;
+    storyDiv.innerHTML = name + " ama " + food + " " + color + "!";
+  }
+
+  let libButton = document.getElementById('lib-button');
+  libButton.addEventListener('click', libIt);  
+</script>
+
+ </body>
+</html>
