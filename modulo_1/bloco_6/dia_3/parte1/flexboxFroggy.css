@@ -1,0 +1,86 @@
+/* https://flexboxfroggy.com/ */
+
+/* ex.1: itens alinhados ao lado direito do contêiner */
+#pond {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ex.2: itens alinhados no centro do contêiner */
+#pond {
+  display: flex;
+  justify-content: center; 
+}
+
+/* ex.3: itens exibidos com espaçamento igual ao redor deles */
+#pond {
+  display: flex;
+  justify-content: space-around; 
+}
+
+/* ex.4: itens exibidos com espaçamento igual entre eles */
+#pond {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ex.5: itens alinhados ao fundo do recipiente. */
+#pond {
+  display: flex;
+align-items: flex-end;
+}
+
+/* ex.6: tens alinhados no centro vertical/horizontal do contêiner */
+#pond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ex.7: itens exibidos com espaçamento igual ao redor deles e alinhados ao fundo do contêiner */
+#pond {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* ex.8: itens posicionados opostos à direção do texto */
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* ex.9: tens colocados de cima para baixo */
+#pond {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ex.10: itens alinhados ao lado direito do contêiner e posicionados opostos à direção do texto*/
+#pond {
+  display: flex;
+  justify-content: flex-end; 
+  flex-direction: row-reverse;
+}
+
+/* ex.11: tens colocados de cima para baixo e alinhados ao lado direito do contêiner */
+#pond {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* ex.12: itens colocados de baixo para cima e exibidos com espaçamento igual entre eles */
+#pond {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+/* ex.13: tens posicionados opostos à direção do texto, alinhados no centro/fundo do contêiner */
+#pond {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}

@@ -1,0 +1,101 @@
+/* http://www.flexboxdefense.com/ */
+
+/* ex.1: 100 points */
+.tower-group-1 {
+  display: flex;
+  justify-content: center;
+}
+
+/* ex.2:  100 points */
+.tower-group-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.tower-group-2 {
+  display: flex;
+  justify-content: center;
+}
+.tower-group-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ex.3: 100 points */
+.tower-group-1 {
+  display: flex;
+  justify-content: center;
+  }
+.tower-group-2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+/* ex.4: 100 points */
+.tower-group-1 {
+  display: flex;
+  align-items: flex-end;
+}
+.tower-group-2 {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* ex.5: 100 points */
+.tower-group-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.tower-group-2 {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: center;
+}
+.tower-group-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* ex.6: 100 points */
+.tower-group-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ex.7: 100 points */
+.tower-group-1 {
+  display: flex;
+  flex-direction: column;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ex.8: 100 points */
+.tower-group-1 {
+  display: flex;
+  flex-direction: column;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ex.9: 100 points */
+.tower-group-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.tower-group-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+}
