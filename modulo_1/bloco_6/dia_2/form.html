@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de currículo</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/DatePickerX.min.css">
+
+</head>
+<body>
+  <h1 class='form-group text-muted'>Formulário de currículo</h1><br>
+
+  <form class='curriculum'>
+
+<!--Dados pessoais-->
+<fieldset>
+  <section class='form-group'>
+    <label for='name'>Nome</label>
+    <input class='value form-control' id='name' data-validate-field='name' name='name' type='text' maxlength='40' required>
+  </section>
+  <section class='form-group'>
+    <label for='email'>Email</label>
+    <input class='value form-control' id='email' data-validate-field='email' name='email' type='text' maxlength='50' required>
+  </section>
+  <section class='form-group'>
+    <label for='cpf'>CPF</label>
+    <input class='value form-control' id='cpf' data-validate-field='cpf' name='cpf' type='text' maxlength='11' required>
+  </section>
+  <section class='form-group'>
+    <label for='endereco'>Endereço</label>
+    <input class='value form-control' id='endereco' data-validate-field='endereco' name='endereco' type='text' maxlength='200' required>
+  </section>
+  <section class='form-group'>
+    <label for='cidade'>Cidade</label>
+    <input class='value form-control' id='cidade' data-validate-field='cidade' name='cidade' type='text' maxlength='28' required>
+  </section>
+  <section class='form-group'>
+    <label for='estado'>Estado</label>
+    <select class='value form-control' id='estado' data-validate-field='estado' name='estado' required></select>
+  </section>
+  <section class='form-group'>
+    <label>Tipo</label>
+    <div>
+      <label for='apartamento'>
+      <input class='value' id='apartamento' data-validate-field='radio' name='radio' type='radio' name='moradia' value='apartamento' required> apartamento</label>
+    </div>
+    <div>
+      <label for='casa'>
+      <input class='value' id='casa' data-validate-field='radio' name='radio' type='radio' name='moradia' value='casa' required> casa</label>
+    </div>
+  </section>
+</fieldset>
+
+<!--Dados do último emprego-->
+<fieldset>
+  <section class='form-group'>
+    <label for='resumo'>Resumo do currículo</label>
+    <textarea class='value form-control' id='resumo' data-validate-field='resumo' name='resumo' maxlength='1000' required></textarea>
+  </section>
+  <section class='form-group'>
+    <label for='cargo'>Cargo</label>
+    <input class='value form-control' id='cargo' data-validate-field='cargo' name='cargo' type='text' maxlength='40' required>
+  </section class='form-group'>
+    <label for='descricao'>Descrição do cargo</label>
+    <input class='value form-control' id='descricao' data-validate-field='descricao' name='descricao' type='text' maxlength='500' required><br>
+  </section>
+  <section class='form-group'>
+    <label for='data'>Data de início</label>
+    <input class='value form-control' id='data' data-validate-field='data' name='data' type='text' placeholder='dd/mm/aaaa' required>
+  </section>
+</fieldset>
+
+<button class="btn btn-success">Enviar</button>
+<button class='btn btn-primary' id='reset' type='reset'>Limpar</button>
+<button class="btn btn-danger" id='submit' type='submit'>Cancelar</button>
+
+<div class='form-group text-muted' id='consolidated'>
+  <h3>Consolidado dos dados inseridos no formulário:</h3>
+</div>
+
+</form>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/DatePickerX.min.js"></script>
+<script src="js/just-validate.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
