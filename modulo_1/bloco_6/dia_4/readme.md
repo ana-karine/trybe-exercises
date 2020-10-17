@@ -1,0 +1,2 @@
+- (PENDENTE) Parte 1 (exercícios de 14 a 24): [Flexbox Froggy](https://flexboxfroggy.com/);
+- (PENDENTE) Parte 2 (exercícios de 10 a 12): [Flexbox Defense](http://www.flexboxdefense.com/).

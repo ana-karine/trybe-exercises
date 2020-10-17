@@ -1,0 +1,56 @@
+/* https://flexboxfroggy.com/ */
+
+/* ex.14: especifica a ordem de um item flexível em relação ao
+restante dos itens flexíveis dentro do mesmo contêiner. */
+#pond {
+  display: flex;
+}
+
+.yellow {
+order: 2;
+}
+
+/* ex.15 */
+#pond {
+  display: flex;
+}
+
+.red {
+order: -3;
+}
+
+/* ex.16: alinha itens-flex da linha flex alvo, sobreescrevendo o valor align-items */
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+align-self: flex-end;
+}
+
+/* ex.17 */
+pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+align-self: flex-end;
+order: 2;
+}
+
+/* ex.18:  */
+
+
+/* ex.19:  */
+
+/* ex.20:  */
+
+/* ex.21:  */
+
+/* ex.22:  */
+
+/* ex.23:  */
+
+/* ex.24:  */
