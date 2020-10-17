@@ -46,7 +46,7 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
   - Caso alguma das condições for inválida no momento do envio do formulário, exibir mensagem de erro contextualizada.
   - Campo obrigatório
 
-3. Logo abaixo do formulário, crie um botão que:
+3. (PENDENTE) Logo abaixo do formulário, crie um botão que:
   - Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o `preventDefault()`.
   - Execute as validações que foram pedidas ao longo da montagem do formulário.
   - Monte uma `<div>` com o consolidado dos dados que foram inseridos no formulário.
