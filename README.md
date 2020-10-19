@@ -34,7 +34,7 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto - Playground Functions]()_
+- [x] 4-5: _[Projeto 02 - Playground Functions](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p2_playground-functions)_
 
 ##### Bloco 5: JavaScript | Projetos
 
@@ -42,11 +42,11 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 5-2: _JavaScript - Trabalhando com elementos
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage__
-- [x] 5-5: _[Projeto - Meme Generator]()_
-- [x] 5-6: _[Projeto - Arte com Pixels]()_
-- [x] 5-7: _[Projeto - Lista de tarefas]()_
-- [x] (Bônus): _[Projeto - Adivinhe a Cor]()_
-- [x] (Bônus): _[Projeto - Carta Misteriosa]()_
+- [x] 5-5: _[Projeto 03 - Meme Generator](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p3_meme-generator)_
+- [x] 5-6: _[Projeto 04 - Arte com Pixels](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p4_pixels-art)_
+- [x] 5-7: _[Projeto 05 - Lista de tarefas](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p5_todo-list)_
+- [x] (Bônus): _[Projeto 06 - Adivinhe a Cor](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p6_color-guess)_
+- [x] (Bônus): _[Projeto 07 - Carta Misteriosa](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p7_mistery-letter)_
 
 ##### Bloco 6: Introdução - Front-end
 
@@ -55,7 +55,7 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [x] 6-6: _[Projeto 08 - Página inicial do Facebook](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p8_facebook)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
@@ -74,16 +74,16 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [ ] 9-3: _[Projeto 11 - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
 
 - [ ] 10-1: _Primeiros passos no Jest_ 
 - [ ] 10-2: _Jest - Testes Assíncronos_
 - [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_
+- [ ] 10-4: _[Projeto 12 - Jest Assíncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
