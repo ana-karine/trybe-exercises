@@ -1,4 +1,4 @@
-// 3.  Quando a promise for resolvida com sucesso, retorne o resultado da divisão desse número por
+// Quando a promise for resolvida com sucesso, retorne o resultado da divisão desse número por
 // 2, 3, 5 e 10 em um array.
 
 const fetchPromise = () => {
