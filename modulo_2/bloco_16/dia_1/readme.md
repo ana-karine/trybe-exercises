@@ -1,4 +1,4 @@
-##### Introdução ao Redux - O estado global da aplicação
+### Introdução ao Redux - O estado global da aplicação
 
 Exercícios do site site **freecodecamp**: 
 
