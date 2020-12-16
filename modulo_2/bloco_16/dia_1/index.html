@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redux basic example</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+  </head>
+  <body>
+    <div>
+      Clicked: <span id="value">0</span> times
+
+      <input type="text" id="increment" />
+      <input type="submit" onclick="increment()" value="+" />
+
+      <input type="text" id="decrement" />
+      <input type="submit" onclick="decrement()" value="-" />
+
+      <div>Click count: <span id="count">0</span></div>
+
+      <div>Array: <span id="numbers">0</span></div>
+    </div>
+    <script>
+      const INCREMENT = "INCREMENT";
+      const DECREMENT = "DECREMENT";
+
+      function counterReducer(state = 0, action) {
+        switch (action.type) {
+          case INCREMENT:
+            return state - -action.num;
+          case DECREMENT:
+            return state - action.num;
+          default:
+            return state;
+        }
+      }
+
+      const store = Redux.createStore(counterReducer);
+      let clickCount = 0;
+      let array = [];
+
+      function increment() {
+        num = document.getElementById("increment").value;
+        document.getElementById("value").innerHTML = num;
+
+        array.push(num);
+        document.getElementById("numbers").innerHTML = array;
+
+        clickCount = clickCount + 1;
+        document.getElementById("count").innerHTML = clickCount;
+
+        store.dispatch({ type: INCREMENT, num, array, clickCount });
+        console.log(num);
+        console.log(array);
+        console.log(clickCount);
+      }
+
+      function decrement() {
+        num = document.getElementById("decrement").value;
+        document.getElementById("value").innerHTML = num;
+
+        array.push(num);
+        document.getElementById("numbers").innerHTML = array;
+
+        clickCount = clickCount + 1;
+        document.getElementById("count").innerHTML = clickCount;
+
+        store.dispatch({ type: DECREMENT, num, array, clickCount });
+        console.log(num);
+        console.log(array);
+        console.log(clickCount);
+      }
+
+      store.subscribe(
+        () =>
+          (document.getElementById(
+            "value"
+          ).innerHTML = store.getState().toString())
+      );
+    </script>
+  </body>
+</html>
