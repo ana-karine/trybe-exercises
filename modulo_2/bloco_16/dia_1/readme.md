@@ -1,6 +1,6 @@
 ### Introdução ao Redux - O estado global da aplicação
 
-Exercícios do site site **freecodecamp**: 
+Exercícios do site **freecodecamp**: 
 
 1. [Definindo um action creator](https://www.freecodecamp.org/learn/front-end-libraries/redux/define-an-action-creator)
 2. [Enviando uma action para um reducer](https://www.freecodecamp.org/learn/front-end-libraries/redux/dispatch-an-action-event)
