@@ -14,7 +14,7 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 1-4: _Unix & Bash - Parte 2_
 - [x] 1-5: _Shell Script_
 
-##### Bloco 2: Git & GitHub
+##### Bloco 2: Git, GitHub e Internet
 
 - [x] 2-1: _Git & GitHub - O que é e para que serve_
 - [x] 2-2: _Git & GitHub - Entendendo os comandos_
