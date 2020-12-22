@@ -6,9 +6,9 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, soft skills, carreira, agile e software engineering - the real life.
 
-## Introdução ao Desenvolvimento Web :white_check_mark:
+## Fundamentos do Desenvolvimento Web :white_check_mark:
 
-##### Bloco 1: Introdução - Unix & Shell
+##### Bloco 1: Unix, Bash e Shell Script
 
 - [x] 1-3: _Unix & Bash - Parte 1_
 - [x] 1-4: _Unix & Bash - Parte 2_
