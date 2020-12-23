@@ -1,5 +1,3 @@
-Bloco - Dia: 5 - 2 | Título: JavaScript - Trabalhando com elementos
-
 
 Objetivos:
 
