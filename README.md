@@ -20,13 +20,13 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 2-2: _Git & GitHub - Entendendo os comandos_
 - [x] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução - HTML & CSS
+##### Bloco 3:  Introdução à HTML e CSS
 
 - [x] 3-1: _HTML & CSS - Estruturas de página_
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto 01 - Lições Aprendidas](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p1_lessons-learned)_
+- [x] 3-5: _[Projeto 01 - Lessons Learned](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p1_lessons-learned)_
 
 ##### Bloco 4: Introdução - JavaScript
 
