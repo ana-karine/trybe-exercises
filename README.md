@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _[Projeto 01 - Lessons Learned](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p1_lessons-learned)_
 
-##### Bloco 4: Introdução - JavaScript
+##### Bloco 4:  Introdução à JavaScript e Lógica de Programação
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
