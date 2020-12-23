@@ -1,4 +1,3 @@
-Bloco - Dia: 3 - 4
-Título: HTML Semântico
+O objetivo desses exercícios é colocar em prática os conhecimentos adquiridos sobre HTML semântico.
 
-Trabalho feito para o curso de Software Developer da Trybe.
+Para tal, foi criada uma página sobre um dos animais mais impressionantes que existem: o Stomatopoda. 
