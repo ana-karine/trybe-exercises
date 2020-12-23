@@ -1,5 +1,3 @@
-Bloco - Dia: 4 - 3 | Título: JavaScript - Lógica de Programação e Algoritmos
-
 
 Objetivos:
 
