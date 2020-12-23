@@ -1,4 +1,3 @@
-Bloco - Dia: 4 - 4 | Título: JavaScript - Objetos e funções
 
 
 Objetivos:
