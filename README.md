@@ -36,17 +36,17 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _[Projeto 02 - Playground Functions](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p2_playground-functions)_
 
-##### Bloco 5: JavaScript | Projetos
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage__
 - [x] 5-5: _[Projeto 03 - Meme Generator](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p3_meme-generator)_
-- [x] 5-6: _[Projeto 04 - Arte com Pixels](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p4_pixels-art)_
-- [x] 5-7: _[Projeto 05 - Lista de tarefas](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p5_todo-list)_
-- [x] (Bônus): _[Projeto 06 - Adivinhe a Cor](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p6_color-guess)_
-- [x] (Bônus): _[Projeto 07 - Carta Misteriosa](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p7_mistery-letter)_
+- [x] 5-6: _[Projeto 04 - Pixels Art](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p4_pixels-art)_
+- [x] 5-7: _[Projeto 05 - To Do List](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p5_todo-list)_
+- [x] (Bônus): _[Projeto 06 - Color Guess](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p6_color-guess)_
+- [x] (Bônus): _[Projeto 07 - Mistery Letter](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p7_mistery-letter)_
 
 ##### Bloco 6: Introdução - Front-end
 
