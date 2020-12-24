@@ -57,20 +57,20 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto 08 - Facebook Signup](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p8_facebook)_
 
-##### Bloco 7: JavaScript ES6 & Testes Unitários
+##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [x] 7-4: _[Projeto 09 - ES6 e Testes Unitários](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p9_unit-tests)_
+- [x] 7-4: _[Projeto 09 - JS ES6 & Unit Tests](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p9_unit-tests)_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: Higher Order Functions do JavaScript ES6
 
 - [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-4: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [x] 8-5: _[Projeto 10 - ES6 e Higher Order Functions](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p10_zoo)_
+- [x] 8-5: _[Projeto 10 - JS ES6 & Higher Order Functions (Zoo Functions)](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p10_zoo)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
