@@ -48,14 +48,14 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] (Bônus): _[Projeto 06 - Color Guess](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p6_color-guess)_
 - [x] (Bônus): _[Projeto 07 - Mistery Letter](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p7_mistery-letter)_
 
-##### Bloco 6: Introdução - Front-end
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto 08 - Página inicial do Facebook](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p8_facebook)_
+- [x] 6-6: _[Projeto 08 - Facebook Signup](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p8_facebook)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
