@@ -72,18 +72,18 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 8-4: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
 - [x] 8-5: _[Projeto 10 - JS ES6 & Higher Order Functions (Zoo Functions)](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p10_zoo)_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: JavaScript Assíncrono e Promises
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Projeto 11 - Carrinho de Compras]()_
+- [x] 9-3: _[Projeto 11 - Shopping Cart](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p11_shopping-cart)_
 
-##### Bloco 10: Jest
+##### Bloco 10: Testes automatizados com Jest
 
-- [ ] 10-1: _Primeiros passos no Jest_ 
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto 12 - Jest Assíncrono e Mocking]()_
+- [x] 10-1: _Primeiros passos no Jest_ 
+- [x] 10-2: _Jest - Testes Assíncronos_
+- [x] 10-3: _Jest - Simulando comportamentos_
+- [x] 10-4: _[Projeto 12 - Jest & Mocking](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p12_jest_mocking)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
