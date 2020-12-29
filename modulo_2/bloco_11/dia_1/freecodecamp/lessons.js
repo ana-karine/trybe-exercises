@@ -103,7 +103,7 @@ class ParentComponent extends React.Component {
       <div>
         <h1>I am the parent</h1>
         { /* Change code below this line */ }
-<ChildComponent />
+        <ChildComponent />
         { /* Change code above this line */ }
       </div>
     );
