@@ -20,15 +20,15 @@ Após a solução dos exercícios, abra um PR no seu repositório forkado e, se 
 
 **Atenção!** Quando for criar o PR você irá se deparar com essa tela:
 
-![PR do exercício](images/example-pr.png)
+![PR do exercício](exercise-pokedex-state/images/example-pr.png)
 
 É necessário realizar uma mudança. Clique no *base repository* como na imagem abaixo:
 
-![Mudando a base do repositório](images/change-base.png)
+![Mudando a base do repositório](exercise-pokedex-state/images/change-base.png)
 
 Mude para o seu repositório. Seu nome estará na frente do nome dele, por exemplo: `antonio/pokedex-state`. Depois desse passo a página deve ficar assim:
 
-![Após mudança](images/after-change.png)
+![Após mudança](exercise-pokedex-state/images/after-change.png)
 
 Agora basta criar o PULL REQUEST clicando no botão `Create Pull Request`.
 
@@ -64,4 +64,4 @@ Agora que você pegou todos os pokémons, consegue pegar todos os bônus?! Não 
 
 Abaixo, um exemplo com todos os bônus feitos:
 
-![Pokedex finalizada](images/pokedex.gif)
+![Pokedex finalizada](exercise-pokedex-state/images/pokedex.gif)
