@@ -26,7 +26,7 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [x] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [x] 3-4: _HTML Semântico_
-- [x] 3-5: _[Projeto 01 - Lessons Learned](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p1_lessons-learned)_
+- [x] 3-5: _[Projeto 01 - Lessons Learned](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p1_lessons-learned)_
 
 ##### Bloco 4:  Introdução à JavaScript e Lógica de Programação
 
@@ -34,7 +34,7 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [x] 4-5: _[Projeto 02 - Playground Functions](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p2_playground-functions)_
+- [x] 4-5: _[Projeto 02 - Playground Functions](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p2_playground-functions)_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
@@ -42,11 +42,11 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
-- [x] 5-5: _[Projeto 03 - Meme Generator](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p3_meme-generator)_
-- [x] 5-6: _[Projeto 04 - Pixels Art](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p4_pixels-art)_
-- [x] 5-7: _[Projeto 05 - To Do List](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p5_todo-list)_
-- [x] (Bônus): _[Projeto 06 - Color Guess](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p6_color-guess)_
-- [x] (Bônus): _[Projeto 07 - Mistery Letter](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p7_mistery-letter)_
+- [x] 5-5: _[Projeto 03 - Meme Generator](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p3_meme-generator)_
+- [x] 5-6: _[Projeto 04 - Pixels Art](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p4_pixels-art)_
+- [x] 5-7: _[Projeto 05 - To Do List](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p5_todo-list)_
+- [x] (Bônus): _[Projeto 06 - Color Guess](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p6_color-guess)_
+- [x] (Bônus): _[Projeto 07 - Mistery Letter](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p7_mistery-letter)_
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -55,14 +55,14 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 6-3: _CSS Flexbox - Parte 1_
 - [x] 6-4: _CSS Flexbox - Parte 2_
 - [x] 6-5: _CSS Responsivo - Mobile First_
-- [x] 6-6: _[Projeto 08 - Facebook Signup](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p8_facebook)_
+- [x] 6-6: _[Projeto 08 - Facebook Signup](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p8_facebook)_
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Objects_
 - [x] 7-3: _Testes unitários em JavaScript_
-- [x] 7-4: _[Projeto 09 - JS ES6 & Unit Tests](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p9_unit-tests)_
+- [x] 7-4: _[Projeto 09 - JS ES6 & Unit Tests](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p9_unit-tests)_
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
@@ -70,34 +70,34 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] 8-4: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [x] 8-5: _[Projeto 10 - JS ES6 & Higher Order Functions (Zoo Functions)](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p10_zoo)_
+- [x] 8-5: _[Projeto 10 - JS ES6 & Higher Order Functions (Zoo Functions)](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p10_zoo)_
 
 ##### Bloco 9: JavaScript Assíncrono e Promises
 
 - [x] 9-1: _JavaScript Assíncrono e Callbacks_
 - [x] 9-2: _JavaScript Promises_
-- [x] 9-3: _[Projeto 11 - Shopping Cart](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p11_shopping-cart)_
+- [x] 9-3: _[Projeto 11 - Shopping Cart](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p11_shopping-cart)_
 
 ##### Bloco 10: Testes automatizados com Jest
 
 - [x] 10-1: _Primeiros passos no Jest_ 
 - [x] 10-2: _Jest - Testes Assíncronos_
 - [x] 10-3: _Jest - Simulando comportamentos_
-- [x] 10-4: _[Projeto 12 - Jest & Mocking](https://github.com/ana-karine/trybe-projects/tree/master/intro-dev-web/p12_jest_mocking)_
+- [x] 10-4: _[Projeto 12 - Jest & Mocking](https://github.com/ana-karine/trybe-projects/tree/master/fund-dev-web/p12_jest_mocking)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: Introdução - React
+##### Bloco 11: Introdução à React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [x] 11-1: _Introdução Front-end & React_
+- [x] 11-2: _Componentes React_
+- [x] 11-3: _[Projeto 13 - Movie Cards Library](https://github.com/ana-karine/trybe-projects/tree/master/desenv_front-end/p13_movie-cards-library)_
 
-##### Bloco 12: React
+##### Bloco 12: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [x] 12-1: _Componentes com estado e eventos_
+- [x] 12-2: _Formulários no React_
+- [x] 12-3: _[Projeto 14 - Movie Cards Library Stateful](https://github.com/ana-karine/trybe-projects/tree/master/desenv_front-end/p14_movie-card-library-stateful)_
 
 ##### Bloco 13: React
 
