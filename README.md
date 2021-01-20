@@ -107,14 +107,15 @@ O programa conta com mais de 1.500 horas de aulas e aborda introdução ao desen
 
 ##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ágeis_
-- [ ] 14-2: _[Projeto - Frontend Online Store]()_
+- [x] 14-1: _Metodologias Ágeis_
+- [ ] 14-2: _[Projeto 16 - Frontend Online Store]()_
 
-##### Bloco 15: Testes em React
+##### Bloco 15: Testes automatizados com React Testing Library
 
-- [ ] 15-1: _Testando React com a React Testing Library_
-- [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
-- [ ] 15-3: _[Projeto - Testes em React]()_
+- [x] 15-1: _RTL - Primeiros passos_
+- [x] 15-2: _RTL - Mocks e Inputs_
+- [x] 15-3: _RTL - Testando React Router_
+- [x] 15-4: _[Projeto 17 - React Testing Library](https://github.com/ana-karine/trybe-projects/tree/master/desenv_front-end/p17_react-testing-library)_
 
 ##### Bloco 16: Introdução ao Redux
 
