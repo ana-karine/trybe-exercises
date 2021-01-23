@@ -4,77 +4,115 @@
     <title>Redux basic example</title>
     <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
   </head>
+
   <body>
     <div>
-      Clicked: <span id="value">0</span> times
+      Counter:
+      <span id="value">0</span>
+      <br>
 
-      <input type="text" id="increment" />
-      <input type="submit" onclick="increment()" value="+" />
+      Incremented counter:
+      <input type="text" id="incrementValue" />
+      <input type="submit" id="increment" value="+" />
+      <br>
 
-      <input type="text" id="decrement" />
-      <input type="submit" onclick="decrement()" value="-" />
+      Decremented counter:
+      <input type="text" id="decrementValue" />
+      <input type="submit" id="decrement" value="-" />
+      <br>
 
-      <div>Click count: <span id="count">0</span></div>
+      Click count:
+      <span id="count">0</span>
+      <br>
 
-      <div>Array: <span id="numbers">0</span></div>
+      Array:
+      <span id="numbers">0</span>
+      <br>
     </div>
-    <script>
-      const INCREMENT = "INCREMENT";
-      const DECREMENT = "DECREMENT";
 
-      function counterReducer(state = 0, action) {
+    <script>
+      const INITIAL_STATE = {
+        count: 0,
+        incrementValue: 0,
+        decrementValue: 0,
+        arrayValues: []
+      }
+
+      function changeState(state, action) {
+        const value = action.type === 'INCREMENT' ? state.incrementValue : state.decrementValue
+
+        return {
+          ...state,
+          count: state.count + value,
+          arrayValues: [...state.arrayValues, value]
+        }
+      }
+
+      function counterReducer(state = INITIAL_STATE, action) {
         switch (action.type) {
-          case INCREMENT:
-            return state - -action.num;
-          case DECREMENT:
-            return state - action.num;
+          case 'INCREMENT':
+            return changeState(state, action)
+          case 'DECREMENT':
+            return changeState(state, action)
+          case 'INCREMENT_VALUE':
+            return {
+              ...state,
+              incrementValue: action.value
+            }
+          case 'DECREMENT_VALUE':
+            return {
+              ...state,
+              decrementValue: action.value
+            }
           default:
             return state;
         }
       }
 
       const store = Redux.createStore(counterReducer);
-      let clickCount = 0;
-      let array = [];
 
-      function increment() {
-        num = document.getElementById("increment").value;
-        document.getElementById("value").innerHTML = num;
+      document.getElementById('increment')
+        .addEventListener('click', () => {
 
-        array.push(num);
-        document.getElementById("numbers").innerHTML = array;
+          const actionIncrement = { type: 'INCREMENT' };
+          store.dispatch(actionIncrement)
+        })
 
-        clickCount = clickCount + 1;
-        document.getElementById("count").innerHTML = clickCount;
+      document.getElementById('decrement')
+        .addEventListener('click', () => {
 
-        store.dispatch({ type: INCREMENT, num, array, clickCount });
-        // console.log(num);
-        // console.log(array);
-        // console.log(clickCount);
-      }
+          const actionDecrement = { type: 'DECREMENT' };
+          store.dispatch(actionDecrement)
+        })
 
-      function decrement() {
-        num = document.getElementById("decrement").value;
-        document.getElementById("value").innerHTML = num;
+      document.getElementById('incrementValue')
+        .addEventListener('change', (event) => {
 
-        array.push(num);
-        document.getElementById("numbers").innerHTML = array;
+          const actionIncrementValue = {
+            type: 'INCREMENT_VALUE',
+            value: parseInt(`${event.target.value}`)
+          }
 
-        clickCount = clickCount + 1;
-        document.getElementById("count").innerHTML = clickCount;
+          store.dispatch(actionIncrementValue)
+        })
 
-        store.dispatch({ type: DECREMENT, num, array, clickCount });
-        // console.log(num);
-        // console.log(array);
-        // console.log(clickCount);
-      }
+      document.getElementById('decrementValue')
+        .addEventListener('change', (event) => {
 
-      store.subscribe(
-        () =>
-          (document.getElementById(
-            "value"
-          ).innerHTML = store.getState().toString())
-      );
+          const actionDecrementValue = {
+            type: 'DECREMENT_VALUE',
+            value: parseInt(`-${event.target.value}`)
+          }
+
+          store.dispatch(actionDecrementValue)
+        })
+
+      store.subscribe(() => {
+        document.getElementById('value').innerHTML = store.getState().count.toString();
+        document.getElementById('count').innerHTML = store.getState().arrayValues.length;
+        document.getElementById('numbers').innerHTML = store.getState().arrayValues;
+      });
     </script>
+
   </body>
 </html>
