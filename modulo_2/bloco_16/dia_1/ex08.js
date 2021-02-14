@@ -25,3 +25,10 @@ const store = Redux.createStore(notesReducer);
 console.log(store.getState());
 store.dispatch(addNoteText('Hello!'));
 console.log(store.getState());
+
+
+// console output
+// Initial State
+// Hello!
+// Initial State
+// Hello!
