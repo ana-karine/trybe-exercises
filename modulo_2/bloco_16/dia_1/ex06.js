@@ -24,3 +24,12 @@ store.dispatch({type: ADD});
 console.log(count);
 store.dispatch({type: ADD});
 console.log(count);
+
+
+// console output
+// 1
+// 2
+// 3
+// 1
+// 2
+// 3
