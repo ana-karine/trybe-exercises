@@ -118,7 +118,7 @@
           });
         });
 
-      // Ler oS dadoS do store global
+      // Ler os dados do store global
       store.subscribe(() => {
         document.getElementById('value').innerHTML = store.getState().count.toString();
         document.getElementById('count').innerHTML = store.getState().arrayValues.length;
