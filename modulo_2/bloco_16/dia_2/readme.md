@@ -8,10 +8,10 @@
 3. Combinar ambos os exercícios em um só, utilizando o combineReducers.
 
 
-Exercício bônus:
+Exercícios bônus:
 
-4. Refatore a aplicação do [Todo List](https://app.betrybe.com/course/front-end/react/tests/rtl-queries-events-async/exercicios/exercicio-1-todo-list?use_case=side_bar).
-
+4. Refatore a aplicação do [Todo List](https://app.betrybe.com/course/front-end/react/tests/rtl-queries-events-async/exercicios/exercicio-1-todo-list?use_case=side_bar);
+5. Outro exemplo de [Todo List](https://github.com/reduxjs/redux/tree/master/examples/todos-with-undo).
 
 
 
