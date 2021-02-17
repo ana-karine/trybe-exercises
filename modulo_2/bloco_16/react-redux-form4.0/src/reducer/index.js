@@ -35,6 +35,8 @@ export default function reducer(state = INITIAL_STATE, action) {
       return { ...state, emprego: action.emprego };
     case "CHANGE_CURRICULO":
       return { ...state, curriculo: action.curriculo };
+    case "LOAD":
+      return { state: action.data };
     default:
       return state;
   }

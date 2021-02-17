@@ -1,29 +1,5 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-// import {radioToggle} from '../actions/index';
-
-// class Fieldset1 extends Component {
-// handleChange({ target }) {
-//   const { name } = target;
-//   const value = target.type === 'checkbox' ? target.checked : target.value;
-//   this.setState((beforeState) => ({
-//     ...beforeState,
-//     [name]: value,
-//   }));
-// }
-//   rcc
-// Class Fieldset1 () {
-//   return (
-//     <fieldset className="Fieldset">
-//       {inputName()}
-//       {inputEmail()}
-//       {inputCPF()}
-//       {inputAdress()}
-//       {inputCity()}
-//       {radioHouse()}
-//     </fieldset>
-//   );
-// }
 
 class Fieldset1 extends Component {
   constructor(props) {

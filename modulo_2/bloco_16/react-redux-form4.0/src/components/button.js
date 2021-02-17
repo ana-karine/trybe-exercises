@@ -5,7 +5,7 @@ class Button extends Component {
     createButton(){
       
       return (
-        <button onClick={handleSubmit}>
+        <button onChange={handleSubmit}>
           Enviar Dados
          </button>
       );
