@@ -1,7 +1,8 @@
 ### Criando um formulário de currículo.
-- Crie um arquivo HTML chamado form.html para o formulário.
-- Caso julgue necessário, crie estilos CSS para o seu formulário, de acordo com a sua imaginação. Coloque-os em um arquivo styles.css.
-- Crie também um arquivo script.js para seu código JavaScript.
+
+- Crie um arquivo **HTML** chamado `form.html` para o formulário.
+- Caso julgue necessário, crie estilos **CSS** para o seu formulário, de acordo com a sua imaginação. Coloque-os em um arquivo `styles.css`.
+- Crie também um arquivo `script.js` para seu código **JavaScript**.
 
 Vamos criar um formulário de cadastro de currículo com base na especificação a seguir:
 1. Crie um `<fieldset>` para os seguintes dados pessoais:
@@ -22,7 +23,7 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
   - Campo obrigatório
 - Estado - ComboBox
   - Todos os estados do Brasil
-  - Utilize estruturas de repetição via JavaScript para gerar os `<option>`
+  - Utilize estruturas de repetição via **JavaScript** para gerar os `<option>`
   - Campo obrigatório
 - Tipo - Radio Button
   - Casa, Apartamento
@@ -46,8 +47,8 @@ Vamos criar um formulário de cadastro de currículo com base na especificação
   - Caso alguma das condições for inválida no momento do envio do formulário, exibir mensagem de erro contextualizada.
   - Campo obrigatório
 
-3. (PENDENTE) Logo abaixo do formulário, crie um botão que:
-  - Chame uma função JavaScript e interrompa o fluxo automático do form utilizando o `preventDefault()`.
+3. Logo abaixo do formulário, crie um botão que:
+  - Chame uma função **JavaScript** e interrompa o fluxo automático do form utilizando o [preventDefault()](https://developer.mozilla.org/pt-BR/docs/Web/API/Event/preventDefault).
   - Execute as validações que foram pedidas ao longo da montagem do formulário.
   - Monte uma `<div>` com o consolidado dos dados que foram inseridos no formulário.
 

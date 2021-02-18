@@ -1,78 +1,77 @@
+<!--index.html-->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário de currículo</title>
-</head>
-<body>
-
-<!--Dados pessoais-->
-<fieldset>
-  <section>
-    <label for='name'>Nome</label><br>
-    <input class='value' id='name' type='text' maxlength='40' required='required'><br><br>
-  </section>
-  <section>
-    <label for='email'>Email</label><br>
-    <input class='value' id='email' type='text' maxlength='50' required='required'><br><br>
-  </section>
-  <section>
-    <label for='cpf'>CPF</label><br>
-    <input class='value' id='cpf' type='text' maxlength='11' required='required'><br><br>
-  </section>
-  <section>
-    <label for='endereco'>Endereço</label><br>
-    <input class='value' id='endereco' type='text' maxlength='200' required='required'><br><br>
-  </section>
-  <section>
-    <label for='cidade'>Cidade</label><br>
-    <input class='value' id='cidade' type='text' maxlength='28' required='required'><br><br>
-  </section>
-  <section>
-    <label for='estado'>Estado</label><br>
-    <select class='value' id='estado' required='required'></select><br><br>
-  </section>
-  <section>
-    <label>Tipo</label><br>
-    <div>
-      <label for='apartamento'>
-      <input class='value' id='apartamento' type='radio' name='moradia' value='apartamento' required='required'>apartamento</label>
-    </div>
-    <div>
-      <label for='casa'>
-      <input class='value' id='casa' type='radio' name='moradia' value='casa' required='required'>casa</label>
-    </div>
-  </section>
-</fieldset>
-
-<!--Dados do último emprego-->
-<fieldset>
-  <section>
-    <label for='resumo'>Resumo do currículo</label><br>
-    <textarea class='value' id='resumo' maxlength='1000' required='required'></textarea><br><br>
-  </section>
-  <section>
-    <label for='cargo'>Cargo</label><br>
-    <input class='value' id='cargo' type='text' maxlength='40' required='required'><br><br>
-  </section>
-    <label for='descricao'>Descrição do cargo</label><br>
-    <input class='value' id='descricao' type='text' maxlength='500' required='required'><br><br>
-  </section>
-  <section>
-    <label for='data'>Data de início</label><br>
-    <input class='value' id='data' type='text' placeholder='dd/mm/aaaa' required='required'><br><br>
-  </section>
-</fieldset>
-
-<button id='submit' type='submit'>Enviar</button>
-<button id='reset' type='reset'>Limpar</button>
-
-<br><br>
-<div id='consolidated'>
-  <h3>Consolidado dos dados inseridos no formulário</h3>
-</div>
-  
-<script src="./script.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário-currículo</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="form-header">
+      <h1>Formulário para cadastro de currículo</h1>
+      <p>Preencha os campos abaixo</p>
+    </header>
+    <form id="cv-form">
+      <div class="form-row">
+        <!--Dados Pessoais-->
+        <fieldset>
+          <div class="line-content">
+            <label for="name">Nome: </label>
+            <input type="text" name="name" id="name" class="verification" maxlength="40" required>
+          </div>
+          <div class="line-content">
+            <label for="email">Endereço de e-mail: </label>
+            <input class="email-input" type="text" name="email" id="email" maxlength="50" placeholder="exemplo@exemplo.com" required>
+          </div>
+          <div class="line-content">
+            <label for="cpf-number">CPF: </label>
+            <input type="text" name="cpf" id="cpf-number" class="verification" maxlength="11" required>
+          </div>
+          <div class="line-content">
+            <label for="address">Endereço: </label>
+            <input type="text" name="address" id="address" class="verification" maxlength="200" required>
+          </div>
+          <div class="line-content">
+            <label for="city">Cidade: </label>
+            <input type="text" name="city" id="city" class="verification" maxlength="28" required>
+          </div>
+          <div class="line-content alert-state">
+            <label for="state">Estado: </label>
+            <select name="state" id="state" value = "" required>
+              <option value="" id="select-state">Selecione seu estado</option>
+            </select>
+          </div>
+          <div class="line-content">
+            <label for="house-apartment">Tipo de imóvel: </label>
+            <input type="radio" name="house-apartment" id="house" value="house" required> <span>Casa</span>
+            <input type="radio" name="house-apartment" id="apartment" value="apartment" required > <span>Apartamento</span>
+          </div>
+        </fieldset>
+        <!--Dados do Último Emprego-->
+        <fieldset>
+          <div class="line-content">
+            <label for="cv-resume">Resumo do currículo: </label>
+            <textarea id="cv-resume" name="cv-resume" maxlength="1000" cols="100" rows="20" required></textarea>
+          </div>
+          <div class="line-content">
+            <label for="position">Cargo: </label>
+            <input type="text" name="position" id="position" class="verification" maxlength="40" required >
+          </div>
+          <div class="line-content">
+            <label for="description">Descrição do cargo: </label>
+            <input type="text" id="description" class="verification" name="description" maxlength="500" required>
+          </div>
+          <div class="line-content">
+            <label for="start-date">Data de início: </label>
+            <input type="text" class="input-data" name="start-date" value="" placeholder="dd/mm/aaaa" required>
+          </div>
+        </fieldset>
+        <button class="submit-button" type="button">Enviar</button>
+        <button class="clear-button" type="button">Limpar</button>
+      </div>
+      </form>
+    <section class="form-data"></section>
+    <script src="script.js"></script>
+  </body>
 </html>
