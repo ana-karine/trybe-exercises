@@ -10,6 +10,3 @@
 
 
 
-PENDÊNCIAS: 
-- Concatenar botões `Enviar` e `Cancelar`;
-- Incluir no `Consolidado` a informação `Tipo`.
