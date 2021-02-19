@@ -1,9 +1,72 @@
 /* http://www.flexboxdefense.com/ */
 
 /* ex.10: 100 points */
-
+.tower-group-1 {
+  display: flex;
+  justify-content: space-around;
+  order: 0;
+}
+.tower-1-1 {
+  order: -10;
+}
+.tower-1-2 {
+  order: 0;
+}
+.tower-1-3 {
+  order: -10;
+}
+.tower-group-2 {
+  display: flex;
+  justify-content: space-around;
+  order: -10;
+}
+.tower-2-1 {
+  order: 0;
+}
+.tower-2-2 {
+  order: -10;
+}
+.tower-2-3 {
+  order: 0;
+}
 
 /* ex.11:  100 points */
-
+.tower-group-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.tower-1-1 {
+  align-self: flex-end;
+}
+.tower-1-2 {
+  align-self: flex-start;
+}
+.tower-1-3 {
+  align-self: flex-end;
+}
+.tower-1-4 {
+  align-self: flex-start;
+}
 
 /* ex.12: 100 points */
+.tower-group-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.tower-1-1 {
+  align-items: center;
+}
+.tower-1-2 {
+  align-self: center;
+  order: 1;
+}
+.tower-1-3 {
+  align-self: center;
+}
+.tower-1-4 {
+  align-self: center;
+}
+.tower-1-5 {
+  align-self: flex-end;
+  order: 1;
+}

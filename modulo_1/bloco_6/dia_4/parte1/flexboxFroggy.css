@@ -1,13 +1,13 @@
 /* https://flexboxfroggy.com/ */
 
 /* ex.14: especifica a ordem de um item flexível em relação ao
-restante dos itens flexíveis dentro do mesmo contêiner. */
+restante dos itens flexíveis, dentro do mesmo contêiner. */
 #pond {
   display: flex;
 }
 
 .yellow {
-order: 2;
+  order: 2;
 }
 
 /* ex.15 */
@@ -16,41 +16,86 @@ order: 2;
 }
 
 .red {
-order: -3;
+  order: -3;
 }
 
-/* ex.16: alinha itens-flex da linha flex alvo, sobreescrevendo o valor align-items */
+/* ex.16: alinha itens-flex da linha flex alvo, sobreescrevendo o valor align-items. */
 #pond {
   display: flex;
   align-items: flex-start;
 }
 
 .yellow {
-align-self: flex-end;
+  align-self: flex-end;
 }
 
-/* ex.17 */
-pond {
+/* ex.17: combinando 'order' com 'align-self'. */
+#pond {
   display: flex;
   align-items: flex-start;
 }
 
 .yellow {
-align-self: flex-end;
-order: 2;
+  align-self: flex-end;
+  order: 2;
 }
 
-/* ex.18:  */
+/* ex.18: distribuindo itens usando a propriedade 'flex-wrap', que aceita os seguintes valores:
+          nowrap: cada item é adequado a uma única linha;
+          wrap: os itens são agrupados em linhas adicionais;
+          wrap-reverse: os itens são agrupados em linhas adicionais ao contrário. */
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+/* ex.19: formando três colunas ordenadas com a combinação de 'flex-direction' e 'flex-wrap'. */
+#pond {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+}
 
-/* ex.19:  */
+/* ex.20: substituindo a combinação de 'flex-direction' e 'flex-wrap' por
+uma única propriedade: flex-flow. */
+#pond {
+  display: flex;
+  flex-flow: column-reverse wrap;
+}
 
-/* ex.20:  */
+/* ex.21: usando 'align-content' para definir como várias linhas são espaçadas umas das outras:
+          flex-start: linhas agrupadas na parte superior do contêiner;
+          flex-end: linhas agrupadas na parte inferior do contêiner;
+          center: linhas agrupadas no centro vertical do contêiner;
+          space-between: linhas com espaçamento igual entre elas;
+          space-around: linhas com espaçamento igual ao redor delas;
+          stretch: linhas esticadas para caber no contêiner. */
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
 
-/* ex.21:  */
+/* ex.22: */
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
 
-/* ex.22:  */
+/* ex.23: combinação de 'flex-direction' e 'align-content'. */
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+}
 
-/* ex.23:  */
-
-/* ex.24:  */
+/* ex.24: */
+#Lago {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+}
