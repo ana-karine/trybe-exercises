@@ -1,0 +1,38 @@
+.header {
+    background-color: black;
+    color: red;
+  }
+
+.navigation {
+    background-color: cornflowerblue;
+    padding: 0 30px;
+}  
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+    flex-grow: 1;
+}
+
+.main-content {
+    width: 66%;
+    display: inline-block;
+}
+
+.stomatopoda {
+    padding: 15px;
+}
+
+.day-stomatopoda {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.foto { 
+    border: 50%;
+    float: top; 
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px 10px 0px 10px; 
+}

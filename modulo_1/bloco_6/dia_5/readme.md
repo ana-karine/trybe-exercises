@@ -8,4 +8,5 @@ exercise2.html | exercise2.css
 exercise3.html | exercise3.css
 
 
-`*` PENDENTES
+`*` Bônus - Criando layout responsivo utilizando o framework Bootstrap:
+bonus
