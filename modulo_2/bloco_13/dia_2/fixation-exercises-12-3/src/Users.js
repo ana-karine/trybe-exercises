@@ -1,14 +1,37 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Users = ({ greetingMessage = 'Hi There', match }) => (
-  <div>
-    <h2> Users </h2>
-    <p> {greetingMessage}, this is my awesome Users component </p>
-    <p>ID: {match.params.id}</p>
-  </div>
-);
+  class Users extends Component {
+    render() {
+      const {
+        greetingMessage = 'Hi There',
+        match: { params: { id }
+      } } = this.props;
 
-export default Users;
+      return (
+        <main>
+          <h2> Users </h2>
+          {/* <p> { greetingMessage }, this is my awesome Users component </p> */}
+          <p>
+            { `${greetingMessage} User ${id}` }, this is my awesome Users component
+          </p>
+        </main>
+      );
+    }
+  }
+
+  export default Users;
+
+// import React from 'react';
+
+// const Users = ({ greetingMessage = 'Hi There', match }) => (
+//   <div>
+//     <h2> Users </h2>
+//     <p> {greetingMessage}, this is my awesome Users component </p>
+//     <p>ID: {match.params.id}</p>
+//   </div>
+// );
+
+// export default Users;
 
 
 /*
