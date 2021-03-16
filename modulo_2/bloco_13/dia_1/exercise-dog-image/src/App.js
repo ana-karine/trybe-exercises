@@ -1,16 +1,17 @@
-import React from "react";
+import React from 'react';
 
 // Passo 2: 
-// Como App precisa exibir o doguinho atual, ele inicializa this.state com um objeto incluindo a doguinho atual.
-// Mais tarde, atualizaremos este state.
+// Como App precisa exibir o doguinho atual, ele inicializa this.state com um objeto incluindo o doguinho atual.
 class App extends React.Component {
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
+
     this.state = {
-      data: "",
-      name: "",
+      data: '',
+      name: '',
       array: []
     };
+
     this.fetchDog = this.fetchDog.bind(this);
     this.saveData = this.saveData.bind(this);
   }
@@ -28,7 +29,7 @@ class App extends React.Component {
   }
 
   // Passo 5.1:
-  // shouldComponentUpdate() é executado antes da renderização, quando novas props ou state são recebidos.
+  // shouldComponentUpdate() é executado antes da renderização, quando novas props ou states são recebidos.
   // O valor default é true. Este método não é chamado na renderização inicial ou quando forceUpdate() é usado.
   // Em nosso app, a cada tentativa de atualização do componente, é verificado se o campo 'message' tem a string
   // 'terrier'. Se sim, não atualiza o componente pois retorna false.
@@ -69,33 +70,34 @@ class App extends React.Component {
       name,
       array
     } = this.state;
+
     const dogData = { message, name };
     const newArray = [...array, dogData];
+
     this.setState({ array: newArray });
-    this.setState({ name: "" });
+    this.setState({ name: '' });
   }
 
   // Passo 3:
-  // React chama então o método render() do componente App. É assim que o React aprende o que deve ser
-  // exibido na tela. React em seguida, atualiza o DOM para coincidir com a saída de renderização do App.
+  // React chama o método render() do componente App. É assim que o React 'aprende' o que deve ser
+  // exibido na tela. Em seguida, atualiza o DOM para coincidir com a saída de renderização do App.
   render() {
     if (this.state.data === "") return "loading...";
     return (
       <div>
         <p>Doguinhos</p>
-        <button onClick={this.fetchDog}>Novo doguinho!</button>
+        <button onClick={ this.fetchDog }>Novo doguinho!</button>
         <div>
-          {/* <img src={this.state.data.message} /> */}
           <input
             type="text"
-            value={this.state.name}
-            onChange={e => this.setState({ name: e.target.value })}
+            value={ this.state.name }
+            onChange={ e => this.setState({ name: e.target.value }) }
             placeholder="digite o nome do doguinho"
           />
-          <button onClick={this.saveData}>Salvar doguinho!</button>
+          <button onClick={ this.saveData }>Salvar doguinho!</button>
         </div>
         <div>
-          <img src={this.state.data.message} alt={this.state.data.message} />
+          <img src={ this.state.data.message } alt={ this.state.data.message } />
         </div>
       </div>
     );
