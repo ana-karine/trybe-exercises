@@ -1,4 +1,5 @@
 .game-cell {
+  background-color: rgb(227, 241, 236);
   border: 1px solid black;
   height: 38px;
   width: 38px;

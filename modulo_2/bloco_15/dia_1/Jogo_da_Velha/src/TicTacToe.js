@@ -1,6 +1,8 @@
 import React from 'react';
 import GameBoard from './GameBoard';
 
+import './TicTacToe.css';
+
 class TicTacToe extends React.Component {
   static victoryArchivedInLine(gameBoard) {
     for (let i = 0; i <= 6; i += 3) {
@@ -89,13 +91,15 @@ class TicTacToe extends React.Component {
 
   renderButton() {
     return (
-      <button
-        type="button"
-        onClick={this.resetGame}
-        data-testid="restart-button"
-      >
-        Recomeçar Jogo
-      </button>
+      <div className="container-btn">
+        <button
+          type="button"
+          onClick={this.resetGame}
+          data-testid="restart-button"
+        >
+          Recomeçar Jogo
+        </button>
+      </div>
     );
   }
 

@@ -7,7 +7,8 @@ class GameBoard extends React.Component {
   render() {
     const { gameState, updateGame } = this.props;
     return (
-      <div className="game-board">
+      <div className="container-game">
+        <div className="game-board">
         {gameState.map((playerId, i) => (
           <GameCell
             id={i}
@@ -17,6 +18,7 @@ class GameBoard extends React.Component {
           />
         ))}
       </div>
+    </div>
     );
   }
 }
