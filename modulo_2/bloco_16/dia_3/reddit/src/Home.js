@@ -5,7 +5,8 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        Bem-vindo ao sistema de cadastramento!
+        <h3>Bem-vindo ao sistema de cadastramento!</h3>
+        {' '}
         <Link to="/Login">Faça seu Login</Link>
       </div>
     );

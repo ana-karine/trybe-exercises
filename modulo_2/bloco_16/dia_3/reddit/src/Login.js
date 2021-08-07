@@ -1,16 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { login } from './actions';
-import { Link } from 'react-router-dom';
+
 
 class Login extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       email: '',
       password: '',
     };
   }
+
   render() {
     const { email, password } = this.state;
     return (
@@ -27,6 +30,7 @@ class Login extends React.Component {
             placeholder="senha"
           />
         </div>
+        {' '}
         <Link
           to="/clients"
           onClick={() => this.props.login({ email, password })}>

@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { addRegister } from './actions';
-import { Link } from 'react-router-dom';
+
 
 class Register extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       name: '',
       age: '',
@@ -17,6 +19,7 @@ class Register extends React.Component {
   validateRegister = () => {
     const { name, age, email, password } = this.state;
     this.props.addRegister({ name, age, email, password });
+
     this.setState({
       name: '',
       age: '',
@@ -28,6 +31,7 @@ class Register extends React.Component {
   render() {
     const { name, age, email, password } = this.state;
     const { userLogin } = this.props;
+
     if (!userLogin.email) return <div>Login não efetuado!</div>;
     return (
       <div>
@@ -35,26 +39,26 @@ class Register extends React.Component {
           <input
             type="text"
             placeholder="Nome"
-            value={name}
-            onChange={e => this.setState({ name: e.target.value })}
+            value={ name }
+            onChange={ e => this.setState({ name: e.target.value }) }
           />
           <input
             type="number"
             placeholder="Idade"
-            value={age}
-            onChange={e => this.setState({ age: e.target.value })}
+            value={ age }
+            onChange={ e => this.setState({ age: e.target.value }) }
           />
           <input
             type="text"
             placeholder="Email"
-            value={email}
-            onChange={e => this.setState({ email: e.target.value })}
+            value={ email }
+            onChange={ e => this.setState({ email: e.target.value }) }
           />
           <input
             type="text"
             placeholder="Senha"
-            value={password}
-            onChange={e => this.setState({ password: e.target.value })}
+            value={ password }
+            onChange={ e => this.setState({ password: e.target.value }) }
           />
         </div>
         <button onClick={this.validateRegister}>Registrar Cliente</button>
@@ -64,8 +68,11 @@ class Register extends React.Component {
   }
 }
 const mapStateToProps = state => ({
-  userLogin: state.loginReducer});
+  userLogin: state.loginReducer,
+});
+
 const mapDispatchToProps = dispatch => ({
-  addRegister: e => dispatch(addRegister(e))});
+  addRegister: e => dispatch(addRegister(e),
+)});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Register);
