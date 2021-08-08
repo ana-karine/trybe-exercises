@@ -1,42 +1,40 @@
 import React, { Component } from 'react';
-import store from '../store/index';
+// import store from '../store/index';
+import { connect } from "react-redux";
+
 
 class Button extends Component {
-    createButton(){
-      
-      return (
-        <button onChange={handleSubmit}>
-          Enviar Dados
-         </button>
-      );
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
     }
-    
-    render() {
 
-        return (
-            <div className="button">
-       {this.createButton() }
-       {input()}
-            </div>
-        );
-    }
-}
-
-function handleSubmit(){
-    vazio = store.getState();
-    console.log(vazio)
+    this.handleClick = this.handleClick.bind(this);
   }
 
 
+  handleClick() {
+    this.setState({
+      name: this.props.name
+      
+    });
+    console.log(this.state);
+  }
 
-let vazio = "aaaa"
-
-function input(){
-  return (
-    <div>
-    {vazio}
-     </div>
-  );
+  render() {
+    return (
+      <div>
+        <button onClick={this.handleClick} >Clique em mim!</button>
+      </div>
+    );
+  }
 }
 
-export default Button;
+//export default Button;
+
+const mapStateToProps = (state) => ({
+  name: state.name,
+});
+
+export default connect(mapStateToProps, null)(Button);
