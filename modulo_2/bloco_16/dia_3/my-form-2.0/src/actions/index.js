@@ -1,0 +1,12 @@
+export const CHANGE_NAME = 'CHANGE_NAME';
+export const CHANGE_EMAIL = 'CHANGE_EMAIL';
+export const CHANGE_CPF = 'CHANGE_CPF';
+export const CHANGE_ADDRESS = 'CHANGE_ADDRESS';
+export const CHANGE_CITY = 'CHANGE_CITY';
+export const CHANGE_STATE = 'CHANGE_STATE';
+export const CHANGE_HOUSE = 'CHANGE_HOUSE';
+export const CHANGE_APARTMENT = 'CHANGE_APARTMENT';
+export const CHANGE_SUMMARY = 'CHANGE_SUMMARY';
+export const CHANGE_ROLE = 'CHANGE_ROLE';
+export const CHANGE_DESCRIPTION = 'CHANGE_DESCRIPTION';
+export const CLEAR_FORM = 'CLEAR_FORM';
